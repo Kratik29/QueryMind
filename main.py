@@ -14,5 +14,10 @@ async def post_data(input_str: str):
 
 
 @app.delete("/delete")
-async def delete_data(delete_data: str):
+async def delete_data(delete_str: str):
     return delete_data
+
+
+@app.put("/put")
+async def put_data(put_str: str):
+    return put_str
