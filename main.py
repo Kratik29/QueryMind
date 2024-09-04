@@ -15,7 +15,7 @@ async def post_data(input_str: str):
 
 @app.delete("/delete")
 async def delete_data(delete_str: str):
-    return delete_data
+    return delete_str
 
 
 @app.put("/put")
