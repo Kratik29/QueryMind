@@ -1,2 +1,2 @@
-# python_API_LMS
-FastAPI APIs for a learning management system.
+# QueryMind
+GenAI solution for RAG a document
